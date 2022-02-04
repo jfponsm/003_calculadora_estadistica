@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stats Calc</title>
+</head>
+<body>
+    <header>
+        <h2>Stat calc</h2>
+        <p>Calculator for simple statistic operations</p>
+    </header>
+    <form>
+        <label for="inputArray">Insert the array of "n" numbers separated by "," </label>
+        <input id="inputArray"/>
+        <button type="button" onclick="mean()">Calculate mean</button>
+        <button type="button" onclick="median()">Calculate median</button>
+        <button type="button" onclick="mode()">Calculate mode</button>
+        <p id="resultadoFX"></p>
+    </form>
+    <script src="estadisticalogica.js"></script>
+</body>
+</html>
